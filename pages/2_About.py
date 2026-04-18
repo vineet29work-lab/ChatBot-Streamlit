@@ -48,3 +48,8 @@ st.code('''
 st.markdown('''
     NOTE: In future I might add some additional features like file uploading, voice search, etc.
 ''')
+
+with st.sidebar:
+    st.title("Socials")
+    st.page_link(label = "Instagram", page = "https://www.instagram.com/_k.vineettt?igsh=aXNpNzJpd2Ewb280", icon = "🔗")
+    st.page_link(label = "G-mail", page = "https://vineet.29.work@gmail.com", icon = "🔗")
