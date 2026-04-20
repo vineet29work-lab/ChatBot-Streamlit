@@ -25,7 +25,7 @@ else:
     with st.chat_message(name = "AI"):
         reply = ask_ai(prompt)
         st.session_state.chat_history.append({"role":"AI", "content":reply})
-        st.write(reply)
+        st.write_stream(reply)
 
 with st.sidebar:
     st.title("Socials")
