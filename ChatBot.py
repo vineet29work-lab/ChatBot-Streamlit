@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-client = Groq(api_key = "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")
+client = Groq(api_key = "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")
 prompt = st.chat_input(placeholder = "What's in your mind...?")
 
 if "chat_history" not in st.session_state:
